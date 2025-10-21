@@ -15,15 +15,15 @@ public class BazaDeDate {
 
     private String nume;
 
-    private String descriere;
+    private String ArtistID;
 
-    private int versiune;  // <-- missing semicolon
+    private int versiune;
 
     public BazaDeDate() {}
 
-    public BazaDeDate(String nume, String descriere, int versiune) {
+    public BazaDeDate(String nume, String ArtistID, int versiune) {
         this.nume = nume;
-        this.descriere = descriere;
+        this.ArtistID = ArtistID;
         this.versiune = versiune;
     }
 
@@ -44,12 +44,12 @@ public class BazaDeDate {
         this.nume = nume;
     }
 
-    public String getDescriere() {
-        return descriere;
+    public String getArtistID() {
+        return ArtistID;
     }
 
-    public void setDescriere(String descriere) {
-        this.descriere = descriere;
+    public void getArtistID(String ArtistID) {
+        this.ArtistID = ArtistID;
     }
 
     public int getVersiune() {
